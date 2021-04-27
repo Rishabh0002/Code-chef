@@ -1,0 +1,11 @@
+# Code-chef
+April challenge
+A,B,C = map(int,input().split())
+if(A == B):
+    print("YES")
+elif(A == C):
+    print("YES")
+elif(B == C):
+    print("YES")
+else:
+    print("NO")
