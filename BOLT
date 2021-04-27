@@ -1,0 +1,13 @@
+# Code-chef
+April 2021
+T = int(input())
+for i in range(T):
+    k1,k2,k3,v = map(float,input().split())
+    sum = k1*k2*k3*v
+    sum = 100 / sum
+    sum = round(sum,2)
+    if(sum < 9.58):
+        print("YES")
+    else:
+        print("NO")
+
